@@ -1,0 +1,9 @@
+
+{
+  "allowed_tags": [
+    "breach","high-damage","burst","short-range","mid-range","long-range",
+    "explosive","environmental","objective","mobility","disruption","stall",
+    "support","sustain","revive","counter","anti-objective","anti-utility",
+    "area-denial","reliable","sustained-dps","smg","pistol","shotgun","deployable","tank","flank","entry"
+  ]
+}

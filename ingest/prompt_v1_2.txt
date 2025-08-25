@@ -1,0 +1,7 @@
+
+Task: Extract ONLY gameplay facts from the transcript. Ignore jokes, insults, filler.
+Normalize names: KS‑23→"KS23", Anti‑Gravity Cube→"AntiGravityCube", Healing Emitter→"HealingEmitter", Double Barrel→"DoubleBarrel", Dematerializer→"Dematerializer", Charge and Slam→"ChargeAndSlam".
+Tag set is in tags_registry.json. Use only allowed tags.
+Write neutral notes sourced from the transcript. No opinions.
+Output JSON with keys: weapons[], gadgets[], specializations[], meta{synergy[],counters[]}.
+Max note length 240 chars. Lowercase tags.

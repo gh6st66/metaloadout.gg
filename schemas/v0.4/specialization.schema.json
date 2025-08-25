@@ -1,0 +1,16 @@
+
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "tags", "notes"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+    "class": { "type": ["string", "null"], "enum": ["Light", "Medium", "Heavy", null] },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string", "maxLength": 240 } },
+    "since_version": { "type": ["string", "null"] },
+    "deprecated": { "type": "boolean", "default": false },
+    "replaced_by": { "type": ["string", "null"] }
+  }
+}

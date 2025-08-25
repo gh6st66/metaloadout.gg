@@ -1,0 +1,86 @@
+
+{
+  "version": "0.4.0",
+  "updated_at": "2025-08-25T00:00:00Z",
+  "classes": {
+      "Light": {"status":"situational","role":["flank","mobility"],"notes":["93R is extremely dominant in both ranked and pro play.","Weaker in current meta due to low sustain vs. Heavy/Medium."]},
+      "Medium": {"status":"core","role":["balanced","support","objective"],"notes":["Dematerializer is the dominant pro specialization.","FAMAS is the top performing AR."]},
+      "Heavy": {"status":"core","role":["frontline","tank","breach"],"notes":["Dominates fights with resilience and area denial.","Winch Claw is a dominant gadget choice in pro play."]}
+  },
+  "weapons": [
+    {"id":"KS23","class":"Heavy","tags":["breach","high-damage","short-range","environmental"],"notes":["Strong when paired with AntiGravityCube to float cash boxes after breaking ceilings."]},
+    {"id":"DoubleBarrel","class":"Light","tags":["burst","short-range","high-damage"],"notes":["Very high burst; deletes targets at close range as observed."]},
+    {"id":"MGL","class":"Heavy","tags":["explosive","area-denial","mid-range"],"notes":["Ground-based splash; player used AntiGravityCube to rise and avoid MGL damage."]},
+    {"id":"M60","class":"Heavy","tags":["suppressive","mid-range","high-damage"],"notes":["Meta S-tier weapon for anchoring and teamfight DPS. A top pick in ranked play."]},
+    {"id":"FCAR","class":"Medium","tags":["mid-range","reliable","sustained-dps"],"notes":["Meta S-tier weapon; stable and versatile. Sees minor use in pro play."]},
+    {"id":"AKM","class":"Medium","tags":["mid-range","reliable"],"notes":["Rated A-tier; strong alternative AR. Sees minor use in pro play."]},
+    {"id":"XP-54","class":"Light","tags":["smg","close-range"],"notes":["Rated A-tier; a strong pro play weapon."]},
+    {"id":"M11","class":"Light","tags":["smg","close-range"],"notes":["Rated A-tier; a core Light weapon in the pro pool."]},
+    {"id":"V9S","class":"Light","tags":["pistol","short-range"],"notes":["Rated B-tier sidearm."]},
+    {"id":"R.357","class":"Medium","tags":["pistol","mid-range"],"notes":["Rated B-tier revolver. Sees minor use in pro play."]},
+    {"id":"Model1887","class":"Heavy","tags":["shotgun","short-range"],"notes":["Rated B-tier shotgun."]},
+    {"id":"LH1","class":"Medium","tags":["semi-auto","mid-range"],"notes":["Rated C-tier; underperforming."]},
+    {"id":"ThrowingKnives","class":"Light","tags":["niche"],"notes":["Rated D-tier; very low viability."]},
+    {"id":"Flamethrower","class":"Heavy","tags":["close-range","area-denial"],"notes":["Rated D-tier; situational and weak overall."]},
+    {"id": "SH1900", "class": "Light", "tags": ["short-range", "burst", "high-damage"], "notes": []},
+    {"id": "SR-84", "class": "Light", "tags": ["long-range"], "notes": []},
+    {"id": "CL-40", "class": "Medium", "tags": ["explosive", "breach", "mid-range"], "notes": ["Nerfed despite being in a balanced state."]},
+    {"id": "Riot Shield", "class": "Medium", "tags": ["support", "stall"], "notes": []},
+    {"id": "Lewis Gun", "class": "Heavy", "tags": ["mid-range"], "notes": []},
+    {"id": "SA1216", "class": "Heavy", "tags": ["short-range", "burst"], "notes": []},
+    {"id": "Sledgehammer", "class": "Heavy", "tags": ["breach", "short-range", "environmental"], "notes": []},
+    {"id": "FAMAS", "class": "Medium", "tags": ["burst", "mid-range", "high-damage"], "notes": ["Dominant pro play weapon. The only AR with a positive kill differential in analysis."]},
+    {"id": "PIKE", "class": "Medium", "tags": ["long-range", "sustained-dps"], "notes": ["Strong at long range, sees pro play."]},
+    {"id": "93R", "class": "Light", "tags": ["burst", "short-range", "pistol"], "notes": ["Extremely dominant in both ranked and pro play with a +19 differential and high pick rate."]},
+    {"id": "ARN-18", "class": "Light", "tags": ["reliable", "mid-range"], "notes": ["A core pro play weapon with a large magazine and low recoil."]}
+  ],
+  "gadgets": [
+    {"id":"AntiGravityCube","tags":["objective","mobility","disruption","stall"],"notes":["Pairs with breach tools (KS23, C4, RPG) by breaking ceilings/floors then floating the box."]},
+    {"id":"HealingEmitter","tags":["support","sustain"],"notes":["Supports sustain comps (‘double heals’)."]},
+    {"id":"Defibrillator","tags":["revive","support"],"notes":["Used for fast res chains."]},
+    {"id":"GooGrenade","tags":["stall","area-denial","objective"],"notes":["Stalls steal attempts and controls space. Was nerfed, which was a controversial change."]},
+    {"id":"Mine","tags":["area-denial","objective"],"notes":["Holds off cashout areas unattended for a time."]},
+    {"id":"C4","tags":["breach","explosive"],"notes":["Breaks walls/ceilings for vertical objective plays."]},
+    {"id":"RPG","tags":["breach","explosive","high-damage"],"notes":["Used to damage around floated objectives without direct line of sight."]},
+    {"id":"BreachCharge","tags":["breach"],"notes":["Counts as breach option for objective setups that require vertical openings."]},
+    {"id":"Zipline","tags":["mobility"],"notes":["Assists repositioning."]},
+    {"id": "APS Turret", "tags": ["anti-utility", "anti-objective"], "notes": []},
+    {"id": "Flashbang", "tags": ["disruption"], "notes": []},
+    {"id": "Gas Grenade", "tags": ["area-denial"], "notes": ["Effective in pro play due to lack of fire counters."]},
+    {"id": "Glitch Grenade", "tags": ["anti-utility", "disruption"], "notes": []},
+    {"id": "Jump Pad", "tags": ["mobility"], "notes": []},
+    {"id": "Pyro Grenade", "tags": ["area-denial"], "notes": []},
+    {"id": "Sonar Grenade", "tags": ["support"], "notes": []},
+    {"id": "Stun Gun", "tags": ["disruption"], "notes": []},
+    {"id": "Vanishing Bomb", "tags": ["disruption", "support"], "notes": []},
+    {"id": "Barricade", "tags": ["stall", "anti-objective"], "notes": []},
+    {"id": "Dome Shield", "tags": ["stall", "anti-objective", "support"], "notes": []},
+    {"id": "Winch Claw", "tags": ["mobility", "disruption", "objective"], "notes": ["Dominant gadget in NA/EU pro meta."]},
+    {"id": "Health Infuser", "tags": ["sustain", "support"], "notes": ["A staple in Light pro play since its introduction."]}
+  ],
+  "specializations": [
+      {"id":"ChargeAndSlam","class":"Heavy","tags":["mobility","burst","environmental"],"notes":["Buff applies to environmental damage only."]},
+      {"id":"Dematerializer","class":"Medium","tags":["counter","anti-objective"],"notes":["The only specialization used in Medium pro play.","Hard counter to GravityCube float setups."]},
+      {"id":"HealingBeam","class":"Medium","tags":["sustain","support"],"notes":["Anchors sustain comps. Unused in pro play."]},
+      {"id":"Invisibility","class": "Light", "tags":["flank","entry"],"notes":[]},
+      {"id":"MeshShield","class":"Heavy","tags":["tank","objective"],"notes":["Frontline anchor specialization for Heavies."]},
+      {"id": "Cloaking Device", "class": "Light", "tags": ["disruption"], "notes": ["Nerfed and unused in pro play."]},
+      {"id": "Evasive Dash", "class": "Light", "tags": ["mobility"], "notes": ["The dominant specialization in Light pro play."]},
+      {"id": "Grappling Hook", "class": "Light", "tags": ["mobility"], "notes": ["Never optimal in pro play."]},
+      {"id": "Recon Senses", "class": "Medium", "tags": ["support"], "notes": []},
+      {"id": "Guardian Turret", "class": "Medium", "tags": ["area-denial", "anti-objective"], "notes": ["Unused in pro play."]},
+      {"id": "Goo Gun", "class": "Heavy", "tags": ["area-denial", "stall", "anti-objective"], "notes": ["Sees occasional pro play."]}
+  ],
+  "meta": {
+    "weapon_tiers": { "S": ["M60","FCAR","KS23","RPG","FAMAS","93R"], "A": ["AKM","DoubleBarrel","XP-54","M11","ARN-18", "PIKE"], "B": ["V9S","R.357","Model1887"], "C": ["LH1","GuardianTurret"], "D": ["ThrowingKnives","Flamethrower"] },
+    "builds": {
+      "Light": {"focus":"mobility/flank","sample":{"weapon":"93R","gadgets":["Health Infuser","Stun Gun","Flashbang"],"specialization":"Evasive Dash"}},
+      "Medium": {"focus":"balanced/support","sample":{"weapon":"FAMAS","gadgets":["Zipline","Gas Grenade","Defibrillator"],"specialization":"Dematerializer"}},
+      "Heavy": {"focus":"frontline/breach","sample":{"weapon":"M60","gadgets":["Winch Claw","RPG","Dome Shield"],"specialization":"MeshShield"}}
+     },
+    "team_compositions": { "recommended": [], "notes": [] },
+    "synergy": [],
+    "counters": []
+  },
+  "_provenance": []
+}

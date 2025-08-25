@@ -1,0 +1,10 @@
+
+{
+  "ingest_version": "1.0",
+  "transcript_id": "trx_2025-08-25_001",
+  "weapons": [],
+  "gadgets": [],
+  "specializations": [],
+  "meta": { "synergy": [], "counters": [] },
+  "provenance": { "title": "Sample session", "url": null, "hash": "sha256:REPLACE" }
+}
