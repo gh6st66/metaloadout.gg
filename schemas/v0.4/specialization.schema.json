@@ -1,10 +1,12 @@
 
+
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "tags", "notes"],
+  "required": ["id", "name", "tags", "notes"],
   "properties": {
     "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+    "name": { "type": "string", "description": "The user-friendly display name for the specialization." },
     "class": { "type": ["string", "null"], "enum": ["Light", "Medium", "Heavy", null] },
     "aliases": { "type": "array", "items": { "type": "string" } },
     "tags": { "type": "array", "items": { "type": "string" } },

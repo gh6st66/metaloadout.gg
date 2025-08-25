@@ -1,10 +1,13 @@
 
+
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "tags", "notes"],
+  "required": ["id", "name", "tags", "notes"],
   "properties": {
     "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+    "name": { "type": "string", "description": "The user-friendly display name for the gadget." },
+    "class": { "description": "The class(es) that can use this gadget. Can be a string, an array of strings, or null for all classes." },
     "aliases": { "type": "array", "items": { "type": "string" } },
     "tags": { "type": "array", "items": { "type": "string" } },
     "notes": { "type": "array", "items": { "type": "string", "maxLength": 240 } },

@@ -12,7 +12,8 @@
     "react-dom": "^19.1.1",
     "@google/genai": "^1.15.0",
     "react": "^19.1.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "chart.js": "^4.5.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
